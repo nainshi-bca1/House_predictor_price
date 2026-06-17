@@ -41,8 +41,7 @@ interface = gr.Interface(
     ],
     outputs=gr.Textbox(label="Prediction Output"),
     title="Bengaluru House Price Prediction",
-    description="Enter house details below to compute property valuations using our pre-trained Ridge regression machine learning model.",
-    allow_flagging="never" # Disables the default flagging logs folder
+    description="Enter house details below to compute property valuations using our pre-trained Ridge regression machine learning model."
 )
 
 # 4. Launch the application
